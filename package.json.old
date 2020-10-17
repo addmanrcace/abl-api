@@ -1,0 +1,53 @@
+{
+  "name": "abl-api",
+  "version": "0.8.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0",
+    "serverless-http": "^2.6.0",
+    "xml2js": "^0.4.23"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "nodemon": "^2.0.5"
+  },
+  "description": "_Coming Soon_",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/addmanrcace/abl-api.git"
+  },
+  "author": "Addison Wanlass",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/addmanrcace/abl-api/issues"
+  },
+  "homepage": "https://github.com/addmanrcace/abl-api#readme"
+}

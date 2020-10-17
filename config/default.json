@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://addmanrcace:Swimmerfat54!@contactkeeper-s1pyj.mongodb.net/abl?retryWrites=true&w=majority",
+  "jwtSecret": "supersecretstring"
+}
