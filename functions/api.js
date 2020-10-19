@@ -1,7 +1,7 @@
 const express = require('express');
 const logger = require('../middleware/logger');
 const serverless = require('serverless-http');
-const connectDB = require('../config/db');
+const connectDB = require('./connectDB/db');
 
 // Initialize express
 const app = express();
